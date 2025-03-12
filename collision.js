@@ -5,7 +5,7 @@ const window_height = window.innerHeight;
 const window_width = window.innerWidth;
 canvas.height = window_height;
 canvas.width = window_width;
-canvas.style.background = "#ff8";
+canvas.style.background = "#a0a0a0";
 
 class Circle {
     constructor(x, y, radius, color, text, speedX, speedY) {
