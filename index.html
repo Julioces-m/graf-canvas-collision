@@ -2,11 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detección de Colisiones</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Circulos que caen</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #a0a0a0;
+        }
+
+        #canvas {
+            display: block;
+            background-color: #a0a0a0;
+        }
+
+        #counter {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 20px;
+            color: black;
+            font-family: Arial, sans-serif;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 8px 12px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <canvas id="canvas"></canvas>
-    <script src="collision.js"></script>
+    <div id="counter">Eliminados: 0</div>
+
+    <script src="collision.js"></script> <!-- O coloca tu JS directo aquí -->
 </body>
+</html>
